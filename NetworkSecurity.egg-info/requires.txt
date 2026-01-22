@@ -4,3 +4,5 @@ numpy
 pymongo[srv]==3.11
 pymongo
 certifi
+pyaml
+dill
