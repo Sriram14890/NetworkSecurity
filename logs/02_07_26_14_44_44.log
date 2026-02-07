@@ -1,0 +1,8 @@
+[2026-02-07 14:44:50,949] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-02-07 14:44:50,957] 107 dagshub - INFO - Accessing as Sriram14890
+[2026-02-07 14:44:51,875] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Sriram14890/NetworkSecurity "HTTP/1.1 200 OK"
+[2026-02-07 14:44:52,704] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-02-07 14:44:52,707] 107 dagshub - INFO - Initialized MLflow to track repo "Sriram14890/NetworkSecurity"
+[2026-02-07 14:44:52,708] 107 dagshub - INFO - Repository Sriram14890/NetworkSecurity initialized!
+[2026-02-07 14:45:11,616] 107 root - ERROR - 'table.html' not found in search path: 'C:\\ML\\NetworkSecurity\\templates'
+[2026-02-07 14:45:16,308] 107 root - ERROR - 'table.html' not found in search path: 'C:\\ML\\NetworkSecurity\\templates'

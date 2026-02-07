@@ -1,0 +1,6 @@
+[2026-02-07 14:48:47,077] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-02-07 14:48:47,083] 107 dagshub - INFO - Accessing as Sriram14890
+[2026-02-07 14:48:47,922] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Sriram14890/NetworkSecurity "HTTP/1.1 200 OK"
+[2026-02-07 14:48:48,907] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-02-07 14:48:48,910] 107 dagshub - INFO - Initialized MLflow to track repo "Sriram14890/NetworkSecurity"
+[2026-02-07 14:48:48,910] 107 dagshub - INFO - Repository Sriram14890/NetworkSecurity initialized!

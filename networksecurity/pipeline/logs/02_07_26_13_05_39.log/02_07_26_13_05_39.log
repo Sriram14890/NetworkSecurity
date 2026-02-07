@@ -1,0 +1,29 @@
+[2026-02-07 13:05:43,526] 1025 httpx -  INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-02-07 13:05:43,531] 107 dagshub -  INFO - Accessing as Sriram14890
+[2026-02-07 13:05:44,360] 1025 httpx -  INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Sriram14890/NetworkSecurity "HTTP/1.1 200 OK"
+[2026-02-07 13:05:44,678] 1025 httpx -  INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-02-07 13:05:44,680] 107 dagshub -  INFO - Initialized MLflow to track repo "Sriram14890/NetworkSecurity"
+[2026-02-07 13:05:44,681] 107 dagshub -  INFO - Repository Sriram14890/NetworkSecurity initialized!
+[2026-02-07 13:05:44,710] 90 root -  INFO - Training pipeline started
+[2026-02-07 13:05:44,711] 34 root -  INFO - Start Data Ingestion.
+[2026-02-07 13:05:58,694] 65 root -  INFO - Performed train test split on the dataframe
+[2026-02-07 13:05:58,694] 67 root -  INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2026-02-07 13:05:58,696] 75 root -  INFO - Exporting train and test file path.
+[2026-02-07 13:05:58,756] 84 root -  INFO - Exported train and test file path.
+[2026-02-07 13:05:58,756] 37 root -  INFO - Data Ingestion Completed.
+[2026-02-07 13:05:58,757] 45 root -  INFO - Data Validation Started.
+[2026-02-07 13:05:58,782] 34 root -  INFO - Required number of columns:2
+[2026-02-07 13:05:58,782] 35 root -  INFO - Data frame has columns:31
+[2026-02-07 13:05:58,782] 34 root -  INFO - Required number of columns:2
+[2026-02-07 13:05:58,782] 35 root -  INFO - Data frame has columns:31
+[2026-02-07 13:05:58,959] 49 root -  INFO - Data Validation Completed.
+[2026-02-07 13:05:58,959] 57 root -  INFO - Data Transformation Started.
+[2026-02-07 13:05:58,959] 45 root -  INFO - Entered initiate_data_transformation method of DataTransformation class
+[2026-02-07 13:05:58,959] 47 root -  INFO - Starting Data Transformation
+[2026-02-07 13:05:58,983] 34 root -  INFO - Entered the get_data_transformation_object method of DataTransformation class
+[2026-02-07 13:05:58,983] 37 root -  INFO - Initialised KNN Imputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2026-02-07 13:05:59,004] 61 root -  INFO - Data Transformation Completed.
+[2026-02-07 13:05:59,004] 69 root -  INFO - Model Trainer Started.
+[2026-02-07 13:07:20,489] 114 root -  INFO - Model Trainer Artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\02_07_2026_13_05_39\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.991664155870242, precision_score=0.9891805249449008, recall_score=0.9941602899718083), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9713574097135741, precision_score=0.9605911330049262, recall_score=0.982367758186398))
+[2026-02-07 13:07:20,501] 73 root -  INFO - Model Trainer Completed.
+[2026-02-07 13:07:20,501] 93 root -  INFO - Training pipeline completed successfully

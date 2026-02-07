@@ -63,3 +63,26 @@ MODEL_TRAINER_EXPECTED_SCORE: float = 0.6
 MODEL_TRAINER_OVER_FIITING_UNDER_FITTING_THRESHOLD: float = 0.05
 
 TRAINING_BUCKET_NAME = "networksecurity"
+
+import os
+
+import os
+
+ROOT_DIR = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "../../")
+)
+
+FINAL_MODEL_DIR = os.path.join(ROOT_DIR, "networksecurity", "final_models")
+
+MODEL_FILE_PATH = os.path.join(FINAL_MODEL_DIR, "model.pkl")
+PREPROCESSOR_FILE_PATH = os.path.join(FINAL_MODEL_DIR, "preprocessor.pkl")
+
+
+ROOT_DIR = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "../../")
+)
+
+FINAL_MODEL_DIR = os.path.join(ROOT_DIR, "final_models")
+
+MODEL_FILE_PATH = os.path.join(FINAL_MODEL_DIR, "model.pkl")
+PREPROCESSOR_FILE_PATH = os.path.join(FINAL_MODEL_DIR, "preprocessor.pkl")

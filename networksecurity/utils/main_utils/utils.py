@@ -8,10 +8,22 @@ import pickle
 
 from sklearn.metrics import r2_score
 from sklearn.model_selection import RandomizedSearchCV
+import os
+
+ROOT_DIR = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "../../../")
+)
+
+SCHEMA_FILE_PATH = os.path.join(
+    ROOT_DIR,
+    "data_schema",
+    "schema.yaml"
+)
+
 
 def read_yaml_file(filepath: str)-> dict:
     try:
-        with open(filepath, 'rb') as yaml_file:
+        with open(filepath, 'r', encoding="utf-8") as yaml_file:
             return yaml.safe_load(yaml_file)
     except Exception as e:
         raise NetworkSecurityException(e, sys) from e
@@ -117,4 +129,7 @@ def evaluate_models(X_train, y_train,X_test,y_test,models,param):
 
     except Exception as e:
         raise NetworkSecurityException(e, sys)
+
+
+
 
